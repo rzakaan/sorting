@@ -3,6 +3,8 @@
 ## Introduction
 Quicksort is an **in-place** sorting algorithm. When implemented well, it can be somewhat faster than merge sort and about two or three times faster than heapsort.
 
+> An in-place sorting algorithm uses constant space for producing the output (modifies the given array only). It sorts the list only by modifying the order of the elements within the list.
+
 ## How it works
 It works by selecting a middle point (**pivot**) element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the middle point. 
 
