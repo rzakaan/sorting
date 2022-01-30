@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import random, time
 from enum import Enum
 
@@ -62,5 +63,4 @@ if __name__ == "__main__":
     QuickSort(arr).run(0, len(arr) - 1)
     end = time.time()
     t = (end - start) * 1000
-    print(arr)
     print("%f ms" % t)
